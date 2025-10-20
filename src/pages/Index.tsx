@@ -95,8 +95,14 @@ const Index = () => {
             </p>
             {/* Descripción del negocio */}
             <p className="text-lg md:text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-              Más de 20 años preparando las hamburguesas más deliciosas de la ciudad. 
-              Carne 100% de res, ingredientes frescos y el sabor que buscas.
+              En el corazón del ventoso pueblo de Cajón de Ginebra Grande, allá en la estepa de Chubut, se alza una pequeña construcción de ladrillo y chapa oxidada que ha resistido más inviernos que muchos de sus vecinos. El cartel, algo torcido pero aún orgulloso,
+              dice: "LO DE PACO", en letras blancas pintadas a mano.
+              Paco tiene 77 años y todavía atiende detrás del mostrador con una sonrisa desdentada y un delantal que ha visto mejores días. Cada mañana, a las siete en punto, levanta la persiana del local que su padre abrió el mismo día que él nació. Su viejo, Don Ernesto, le puso ese nombre al negocio con una mezcla de ternura y esperanza: "Para que el mundo sepa que en este pueblo nació alguien importante."
+              Y así fue. Aunque Paco nunca salió de Cajón de Ginebra Grande, todos lo conocen. No sólo por las hamburguesas caseras que parecen contener un pedazo del alma patagónica —pan casero, carne de cordero, y ese chimichurri secreto que ni su sobrina ha logrado copiar—, sino por la calidez que emana del lugar. En Lo de Paco, uno se sienta a comer y termina contando su vida entera.
+              "¿Y por qué no te jubilás, Paco?", le preguntan los forasteros, sorprendidos de ver a un hombre de su edad aún cocinando y barriendo el frente del local.
+              "¿Jubilarme de qué? Si esto soy yo", responde él, encogiéndose de hombros. "Mi viejo lo abrió por mí, pero ahora yo lo sigo por él."
+              Y cada noche, al cerrar, Paco se queda un ratito solo, sentado en el banco de la entrada, mirando el cielo raso de estrellas, como si esperara que su viejo bajara a contarle que lo está haciendo bien. Y lo está.
+              Porque en Lo de Paco, el tiempo no pasa. Se queda ahí, entre el humo de la parrilla y las risas del pueblo.
             </p>
             {/* Botón de llamada a la acción */}
             <Button 
@@ -117,7 +123,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Nuestras Hamburguesas</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Todas nuestras hamburguesas incluyen papas fritas y refresco
+              Todas nuestras hamburguesas incluyen papas fritas y bebida
             </p>
           </div>
 
@@ -137,7 +143,7 @@ const Index = () => {
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold mb-2 text-foreground">Clásica</h3>
                 <p className="text-muted-foreground mb-4">
-                  Carne de res, queso cheddar, lechuga, tomate, pepinillos y nuestra salsa especial
+                  Carne de res, tocino, queso, tomate, lechuga.
                 </p>
                 <p className="text-3xl font-bold text-secondary">$120</p>
               </CardContent>
@@ -155,7 +161,7 @@ const Index = () => {
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold mb-2 text-foreground">Deluxe</h3>
                 <p className="text-muted-foreground mb-4">
-                  Doble carne, tocino crujiente, queso, cebolla caramelizada y salsa BBQ
+                  Carne, lechuga, mucho tomate, doble queso cheddar, repollo.
                 </p>
                 <p className="text-3xl font-bold text-secondary">$180</p>
               </CardContent>
@@ -173,7 +179,7 @@ const Index = () => {
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold mb-2 text-foreground">Picante</h3>
                 <p className="text-muted-foreground mb-4">
-                  Carne de res, jalapeños asados, queso pepper jack y salsa chipotle
+                  Carne de pollo, tocino, morrones asados, queso pepper jack y salsa chipotle
                 </p>
                 <p className="text-3xl font-bold text-secondary">$150</p>
               </CardContent>
@@ -205,8 +211,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2 text-foreground">Teléfono</h3>
-                    <p className="text-muted-foreground">+52 (55) 1234-5678</p>
-                    <p className="text-muted-foreground">Lun - Dom: 12:00 - 23:00</p>
+                    <p className="text-muted-foreground">+54 (9) 351-2266003</p>
+                    <p className="text-muted-foreground">Lun - Dom: 12:00 - 00:00</p>
                   </div>
                 </div>
               </Card>
@@ -219,8 +225,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2 text-foreground">Dirección</h3>
-                    <p className="text-muted-foreground">Av. Principal #123</p>
-                    <p className="text-muted-foreground">Col. Centro, CDMX</p>
+                    <p className="text-muted-foreground">﻿-43.7689, -69.4381</p>
+                    <p className="text-muted-foreground">Cajón de Ginebra Grande, Chubut, Argentina</p>
                   </div>
                 </div>
               </Card>
@@ -233,7 +239,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2 text-foreground">Email</h3>
-                    <p className="text-muted-foreground">contacto@lodepaco.com</p>
+                    <p className="text-muted-foreground">Lode@Paco.com</p>
                   </div>
                 </div>
               </Card>
@@ -287,7 +293,7 @@ const Index = () => {
       <footer className="bg-card border-t border-border py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2024 Lo de Paco - Todos los derechos reservados
+            © 2025 Lo de Paco - Casi todos los derechos reservados
           </p>
         </div>
       </footer>
